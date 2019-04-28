@@ -1,8 +1,5 @@
 pipeline {
-    agent dcoker {
-		
-	}
-
+    agent any
     stages {
         stage('Build') {
             steps {
